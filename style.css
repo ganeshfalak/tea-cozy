@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica, "Ubuntu", sans-serif;
+}
+
+.site-header {
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.site-header img {
+    height: 50px;
+}
+
+.site-header ul {
+    list-style-type: none;
+}
+
+.site-header li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.site-header a {
+    color: white;
+    font-size: 20px;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner img {
+    height: 700px;
+    width: 1200px;
+}
+
+.banner-text {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    padding: 7px 0;
+}
+
+.banner-text h2{
+    margin-bottom: 10px;
+}
+
+.tea-section {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    margin: 60px auto;
+}
+
+.tea-section h4 {
+    margin: 20px 0;
+}
+
+.tea-gallary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tea-type img{
+    width: 300px;
+    height: 200px;
+}
+
+.tea-type figcaption {
+    margin-top: 10px;
+}
+
+.location-section {
+    background-image: url(./images/locations-background.jpg);
+    background-position: center top 25%;
+    height: 500px;
+    width: 1200px;
+    padding: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.locations {
+    display: flex;
+    gap: 40px;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+}
+
+.location-section h2 {
+    margin-bottom: 15px;
+}
+
+.location h3 {
+    padding: 15px 0;
+}
+
+.location p {
+    padding: 15px 0;
+}
+
+footer {
+    font-weight: bold;
+}
+
+.site-info {
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copyright-tag {
+    margin: 10px 20px;
+}
